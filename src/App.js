@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import Mynav from "./components/Mynav";
+import MyHeroSection from "./components/MyHeroSection";
+import OurPartner from "./components/OurPartner";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Clients from "./components/Clients";
+import PerfectSolution from "./components/PerfectSolution";
+import ChooseUs from "./components/ChooseUs";
+import OUrBlogs from "./components/OUrBlogs";
+import OurTestonimals from "./components/OurTestonimals";
+import OurResearch from "./components/OurResearch";
+import GetTouch from "./components/GetTouch";
+import MyFotter from "./components/MyFotter";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="d-flex vh_xl_100 flex-column">
+        <Mynav />
+        <MyHeroSection />
+      </div>
+      <OurPartner />
+      <Clients />
+      <PerfectSolution />
+      {/* <ChooseUs /> */}
+      <OurResearch />
+      <OUrBlogs />
+      {/* <OurTestonimals /> */}
+      <GetTouch />
+      <MyFotter/>
+    </>
   );
 }
 
