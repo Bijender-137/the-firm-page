@@ -108,7 +108,7 @@ const OUrBlogs = () => {
               </div>
             </Col>
             <div className="text-center">
-              <button className="nav_btn ff_nunito fw-bold fs_xsm border-0 text-white mt-5 px-4">
+              <button className="nav_btn ff_nunito fw-bold fs_xsm  text-white mt-4 mt-md-5 px-4">
                 Read More
               </button>
             </div>

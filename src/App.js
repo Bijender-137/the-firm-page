@@ -14,23 +14,44 @@ import OurTestonimals from "./components/OurTestonimals";
 import OurResearch from "./components/OurResearch";
 import GetTouch from "./components/GetTouch";
 import MyFotter from "./components/MyFotter";
+import { useEffect, useState } from "react";
+import Nav_logo from "./assets/img/svg/nav_logo.svg";
 
 function App() {
+  const [loader, setloader] = useState(false);
+  useEffect(() => {
+    setloader(true);
+    setTimeout(() => {
+      setloader(false);
+    }, 5000);
+  }, []);
   return (
     <>
-      <div className="d-flex vh_xl_100 flex-column">
-        <Mynav />
-        <MyHeroSection />
-      </div>
-      <OurPartner />
-      <Clients />
-      <PerfectSolution />
-      {/* <ChooseUs /> */}
-      <OurResearch />
-      <OUrBlogs />
-      {/* <OurTestonimals /> */}
-      <GetTouch />
-      <MyFotter/>
+      <>
+        {loader ? (
+          <div className="preloader-bg d-flex align-items-center justify-content-center">
+            <div className="preloader">
+              <img src={Nav_logo} alt="Nav_logo" />
+            </div>
+          </div>
+        ) : (
+          <>
+            <div className="d-flex vh_xl_100 flex-column">
+              <Mynav />
+              <MyHeroSection />
+            </div>
+            <OurPartner />
+            <Clients />
+            <PerfectSolution />
+            <ChooseUs />
+            <OurResearch />
+            <OUrBlogs />
+            <OurTestonimals />
+            <GetTouch />
+            <MyFotter />
+          </>
+        )}
+      </>
     </>
   );
 }

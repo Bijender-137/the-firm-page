@@ -63,7 +63,7 @@ const OurResearch = () => {
                     has been the industry's standard dummy text ever since the
                     1500s, when an unknown printer took.
                   </p>
-                  <button className="nav_btn ff_nunito fw-bold fs_xsm border-0 text-white mt-3 mt-lg-5 px-4">
+                  <button className="nav_btn ff_nunito fw-bold fs_xsm  text-white mt-3 mt-lg-5 px-4">
                     Read More
                   </button>
                 </div>
@@ -93,7 +93,7 @@ const OurResearch = () => {
                     has been the industry's standard dummy text ever since the
                     1500s, when an unknown printer took.
                   </p>
-                  <button className="nav_btn ff_nunito fw-bold fs_xsm border-0 text-white mt-3 mt-lg-5 px-4">
+                  <button className="nav_btn ff_nunito fw-bold fs_xsm  text-white mt-3 mt-lg-5 px-4">
                     Read More
                   </button>
                 </div>

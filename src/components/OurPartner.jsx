@@ -7,7 +7,7 @@ import Sfari from "../assets/img/svg/sfari.svg";
 import Slider from "react-slick";
 const OurPartner = () => {
   var settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 4,

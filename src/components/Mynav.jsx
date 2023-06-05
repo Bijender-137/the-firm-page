@@ -54,7 +54,7 @@ const Mynav = () => {
                     Contact Us
                   </a>
                 </li>
-                <button className="ff_nunito fw-bold fs_xsm text-white border-0 nav_btn ms-xl-5">
+                <button className="ff_nunito fw-bold fs_xsm text-white  nav_btn ms-xl-5">
                   Get in Touch
                 </button>
               </ul>

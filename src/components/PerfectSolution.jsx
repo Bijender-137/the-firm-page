@@ -56,7 +56,7 @@ const PerfectSolution = () => {
               </div>
             </Col>
             <Col xl={5}>
-              <div className="text-center text-lg-start">
+              <div className="text-center text-lg-start mt-4 mt-xl-0">
                 <p className="ff_nunito fw_900 fs_4xl">
                   Perfect Solution for Your Bussiness{" "}
                 </p>
@@ -67,7 +67,7 @@ const PerfectSolution = () => {
                   printer took a galley of type and scrambled it to make a type
                   specimen book. It has survived not only five centuries,
                 </p>
-                <button className="nav_btn ff_nunito fw-bold fs_xsm border-0 text-white mt-5 px-4">
+                <button className="nav_btn ff_nunito fw-bold fs_xsm text-white mt-3 mt-md-5 px-4">
                   Read More
                 </button>
               </div>

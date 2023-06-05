@@ -5,10 +5,10 @@ import Circel from "../assets/img/png/circel_hero.png";
 const MyHeroSection = () => {
   return (
     <>
-      <section className="position-relative hero_border over flow-hidden d-flex flex-column flex-grow-1 justify-content-center align-items-center bg_img_hero">
+      <section className="position-relative hero_border overflow-hidden d-flex flex-column flex-grow-1 justify-content-center align-items-center bg_img_hero ">
         <Container>
           <Row className=" flex-column-reverse flex-lg-row">
-            <Col lg={6} className="py-5">
+            <Col lg={6} className="py-sm-5 py-3">
               <div className="py-xxl-5 text-center text-lg-start">
                 <div className="py-xxl-5">
                   <div className="py-xxl-5">
@@ -27,7 +27,7 @@ const MyHeroSection = () => {
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy.
                     </p>
-                    <button className="ff_nunito fw-bold fs_xsm text-white border-0 nav_btn mt-3">
+                    <button className="ff_nunito fw-bold fs_xsm text-white  nav_btn mt-3">
                       Get in Touch
                     </button>
                   </div>
