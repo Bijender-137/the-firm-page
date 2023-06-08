@@ -8,7 +8,7 @@ const MyHeroSection = () => {
       <section className="position-relative hero_border overflow-hidden d-flex flex-column flex-grow-1 justify-content-center align-items-center bg_img_hero ">
         <Container>
           <Row className=" flex-column-reverse flex-lg-row">
-            <Col lg={6} className="py-sm-5 py-3">
+            <Col lg={6} className="py-sm-5 py-3" data-aos="fade-right">
               <div className="py-xxl-5 text-center text-lg-start">
                 <div className="py-xxl-5">
                   <div className="py-xxl-5">
@@ -34,7 +34,7 @@ const MyHeroSection = () => {
                 </div>
               </div>
             </Col>
-            <Col xs={10} lg={6} className="mx-auto">
+            <Col xs={10} lg={6} className="mx-auto"data-aos="fade-left">
               <img
                 className="posi_abso hero_img_position w_100_xl "
                 src={Hero_img}

@@ -33,7 +33,8 @@ const OurResearch = () => {
         <Container className="py-lg-5">
           <Row>
             <Col xs={12} lg={10} className="mx-auto">
-              <div className="text-center">
+              <div className="text-center position-relative">
+                <div className="our_research_underline position-absolute"></div>
                 <h2 className="ff_nunito fw_900 fs_4xl">
                   Our Research & Case Studies
                 </h2>

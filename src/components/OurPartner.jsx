@@ -7,33 +7,34 @@ import Sfari from "../assets/img/svg/sfari.svg";
 import Slider from "react-slick";
 const OurPartner = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     arrows: true,
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 992,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: false,
+          arrows: true,
         },
       },
       {
-        breakpoint: 992,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: false,
-          autoplay: true,
-          arrows: false,
+          autoplay: false,
+          arrows: true,
           autoplaySpeed: 2000,
         },
       },
@@ -53,46 +54,76 @@ const OurPartner = () => {
     <>
       <section className="py-5 overflow-hidde n">
         <Container className="py-lg-5">
-          <div className="text-center">
-            <h2 className="ff_nunito fs_4xl fw_900">Our Partner</h2>
+          <div className="text-center ">
+            <h2 className="ff_nunito fs_4xl fw_900">
+              Our{" "}
+              <span className="position-relative">
+                Partner
+                <div className="over_partner_underline position-absolute"></div>
+              </span>
+            </h2>
           </div>
           <Slider {...settings} className=" mt-lg-5 mt-4">
-            <Col sm={3} className="ms-md-5 ms-5 ms-sm-3">
+            <Col
+              sm={3}
+              className="ms-md-3 d-flex justify-content-center alignic text-center"
+            >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167 " src={Hand_over} alt="Hand_over" />
               </div>
             </Col>
-            <Col sm={3} className="ms-md-5 ms-5 ms-sm-3">
+            <Col
+              sm={3}
+              className="ms-md-3  d-flex justify-content-center alignic"
+            >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Googel} alt="Googel" />
               </div>
             </Col>
-            <Col sm={3} className="ms-md-5 ms-5 ms-sm-3">
+            <Col
+              sm={3}
+              className="ms-md-3  d-flex justify-content-center alignic"
+            >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Fire_fox} alt="Fire_fox" />
               </div>
             </Col>
-            <Col sm={3} className="ms-md-5 ms-5 ms-sm-3">
+            <Col
+              sm={3}
+              className="ms-md-3  d-flex justify-content-center alignic"
+            >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Sfari} alt="Sfari" />
               </div>
             </Col>
-            <Col sm={3} className="ms-md-5 ms-5 ms-sm-3">
+            <Col
+              sm={3}
+              className="ms-md-3  d-flex justify-content-center alignic"
+            >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Hand_over} alt="Hand_over" />
               </div>
             </Col>
-            <Col sm={3} className="ms-md-5 ms-5 ms-sm-3">
+            <Col
+              sm={3}
+              className="ms-md-3  d-flex justify-content-center alignic"
+            >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Googel} alt="Googel" />
               </div>
             </Col>
-            <Col sm={3} className="ms-md-5 ms-5 ms-sm-3">
+            <Col
+              sm={3}
+              className="ms-md-3 ms-5 ms-sm-3  d-flex justify-content-center alignic"
+            >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Fire_fox} alt="Fire_fox" />
               </div>
             </Col>
-            <Col sm={3} className="ms-md-5 ms-5 ms-sm-3">
+            <Col
+              sm={3}
+              className="ms-md-3 ms-5 ms-sm-3  d-flex justify-content-center alignic"
+            >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Sfari} alt="Sfari" />
               </div>

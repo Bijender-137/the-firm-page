@@ -7,7 +7,6 @@ const MyFotter = () => {
     <>
       <footer className="overflow-hidden">
         <Container>
-         
           <div className="pb-5">
             <div className="text-center ">
               <a href="#">
@@ -16,34 +15,40 @@ const MyFotter = () => {
             </div>
             <Row className="mt-5">
               <Col lg={7} className="mx-auto">
-                <ul className="p-0 m-0 d-flex align-items-center justify-content-xl-center  overflow-x-scroll max_w_940 ">
+                <ul className="p-0 m-0 d-flex align-items-center justify-content-sm-center  overflow-x-scroll max_w_576 ">
                   <li>
                     <a href="#" className="ff_nunito fw-bold fs_xsm clr_black">
                       Home
                     </a>
                   </li>
-                  <li className="ms-5">
+                  <li className="ms-4 ms-md-5">
                     <a href="#" className="ff_nunito fw-bold fs_xsm clr_black">
                       Solutions
                     </a>
                   </li>
-                  <li className="ms-5">
+                  <li className="ms-4 ms-md-5">
                     <a href="#" className="ff_nunito fw-bold fs_xsm clr_black">
                       Cases
                     </a>
                   </li>
-                  <li className="ms-5 ">
-                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black text-nowrap">
+                  <li className="ms-4 ms-md-5 ">
+                    <a
+                      href="#"
+                      className="ff_nunito fw-bold fs_xsm clr_black text-nowrap"
+                    >
                       About Us
                     </a>
                   </li>
-                  <li className="ms-5">
+                  <li className="ms-4 ms-md-5">
                     <a href="#" className="ff_nunito fw-bold fs_xsm clr_black">
                       Blog
                     </a>
                   </li>
-                  <li className="ms-5">
-                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black text-nowrap">
+                  <li className="ms-4 ms-md-5">
+                    <a
+                      href="#"
+                      className="ff_nunito fw-bold fs_xsm clr_black text-nowrap"
+                    >
                       Contact Us
                     </a>
                   </li>
@@ -139,7 +144,9 @@ const MyFotter = () => {
                     </a>
                   </div>
                 </div>
-                <p className="ff_nunito fw-normal fs_2nd_smll text-center mt-5">Copyrights ©2020 Thefirm. All Right Reserved</p>
+                <p className="ff_nunito fw-normal fs_2nd_smll text-center mt-5">
+                  Copyrights ©2020 Thefirm. All Right Reserved
+                </p>
               </Col>
             </Row>
           </div>

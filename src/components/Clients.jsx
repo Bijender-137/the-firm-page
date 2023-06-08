@@ -11,7 +11,11 @@ const Clients = () => {
             <Col lg={6}>
               <div className="me-lg-5 text-center mt-4 mt-lg-0 text-lg-start">
                 <h2 className="ff_nunito  fw_900 fs_4xl">
-                  Frustration of Clients
+                  Frustration of
+                  <span className="position-relative">
+                    Clients
+                    <div className="clients_underline position-absolute z_index_minus"></div>
+                  </span>
                 </h2>
                 <p className="ff_lora fw-normal fs_xsm mt-3">
                   Lorem Ipsum is simply dummy text of the printing and

@@ -13,12 +13,13 @@ const OUrBlogs = () => {
     <>
       <section className="py-5 client_sec_bg_clr">
         <Container className="py-xl-5">
-          <div className="text-center">
+          <div className="text-center position-relative">
             <h2 className="ff_nunito fw_900 fs_4xl">Our Blogs</h2>
+            <div className="our_blog_underline position-absolute"></div>
           </div>
-          <Row className="mt-5 justify-content-center">
+          <Row className="mt-4 mt-lg-5 justify-content-center">
             <Col md={6} lg={4}>
-              <div className="our_blog_card_shadow p-3 mt-3">
+              <div className="our_blog_card_shadow p-3 mt-3 mx-xl-4 h-100">
                 <img className="w-100" src={Our_Blog_1} alt="Our_Blog_1" />
                 <p className="ff_nunito fw-bold fs_sm mt-3">Lorem Ipsum is </p>
                 <p className="ff_lora fw-normal fs_xsm">
@@ -40,15 +41,15 @@ const OUrBlogs = () => {
                     </p>
                   </div>
                 </div>
-                <div className="text-center py-4">
+                <div className="text-center pt-4">
                   <button className="btn_read_more ff_nunito fw-bold fs_xsm text-white border-0 ">
                     Read More
                   </button>
                 </div>
               </div>
             </Col>
-            <Col md={6} lg={4}>
-              <div className="our_blog_card_shadow p-3 mt-3">
+            <Col md={6} lg={4} className="mt-4 mt-md-0">
+              <div className="our_blog_card_shadow p-3 mt-3 mx-xl-4  h-100">
                 <img className="w-100" src={Our_Blog_2} alt="Our_Blog_2" />
                 <p className="ff_nunito fw-bold fs_sm mt-3">Lorem Ipsum is </p>
                 <p className="ff_lora fw-normal fs_xsm">
@@ -70,15 +71,15 @@ const OUrBlogs = () => {
                     </p>
                   </div>
                 </div>
-                <div className="text-center py-4">
+                <div className="text-center pt-4">
                   <button className="btn_read_more ff_nunito fw-bold fs_xsm text-white border-0 ">
                     Read More
                   </button>
                 </div>
               </div>
             </Col>
-            <Col md={6} lg={4}>
-              <div className="our_blog_card_shadow p-3 mt-3">
+            <Col md={6} lg={4} className="mt-4 mt-lg-0">
+              <div className="our_blog_card_shadow p-3 mt-3 mx-xl-4 h-100">
                 <img className="w-100" src={Our_Blog_3} alt="Our_Blog_3" />
                 <p className="ff_nunito fw-bold fs_sm mt-3">Lorem Ipsum is </p>
                 <p className="ff_lora fw-normal fs_xsm">
@@ -100,7 +101,7 @@ const OUrBlogs = () => {
                     </p>
                   </div>
                 </div>
-                <div className="text-center py-4">
+                <div className="text-center pt-4">
                   <button className="btn_read_more ff_nunito fw-bold fs_xsm text-white border-0 ">
                     Read More
                   </button>
@@ -108,7 +109,7 @@ const OUrBlogs = () => {
               </div>
             </Col>
             <div className="text-center">
-              <button className="nav_btn ff_nunito fw-bold fs_xsm  text-white mt-4 mt-md-5 px-4">
+              <button className="nav_btn ff_nunito fw-bold fs_xsm  text-white mt-5 mt-md-5 px-4">
                 Read More
               </button>
             </div>

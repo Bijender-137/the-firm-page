@@ -20,8 +20,8 @@ const Mynav = () => {
               <ul
                 className={
                   first
-                    ? "p-0 m-0 d-xl-flex align-items-center mobile_ul_nav left_100"
-                    : "p-0 m-0 d-xl-flex align-items-center mobile_ul_nav left_0"
+                    ? "pt-5 p-0 p-xl-0 m-0 d-xl-flex align-items-center mobile_ul_nav left_100"
+                    : "pt-5 p-0 p-xl-0 m-0 d-xl-flex align-items-center mobile_ul_nav left_0"
                 }
               >
                 <li>

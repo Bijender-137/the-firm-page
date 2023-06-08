@@ -11,21 +11,16 @@ const PerfectSolution = () => {
       <section className="py-5">
         <Container className="py-xl-5">
           <Row className="align-items-center">
-            <Col xs={10} xl={7} className="mx-auto">
-              <img
-                className="w-100 d-md-none"
-                src={Card_group}
-                alt="Card_group"
-              />
-              <div className="d-flex align-items-center justify-content-center justify-content-xl-start  position-relative d-none d-md-flex">
+            <Col xl={7} className="mx-auto">
+              <Row className="justify-content-center justify-content-xl-start align-items-center position-relative">
                 <img
-                  width={405}
-                  className="position-absolute ff_img_position"
+                  className="position-absolute ff_img_position d-none d-md-block z_index_1"
                   src={FF_img}
                   alt="FF_img"
                 />
-                <div>
-                  <div className="card_border text-center py-5 px-3">
+                <Col md={6} lg={5} xl={6} xxl={5}>
+                  <div className="card_border text-center py-5 px-3 position-relative ">
+                    <div className="perfect_solution_bg_circel position-absolute z_index_minus perfect_solution_bg_circel_position_2"></div>
                     <img src={Card_1} alt="Card_1" />
                     <h2 className="ff_nunito fw-bold fs_3xl mt-4">Coaching</h2>
                     <p className="ff_lora fw-normal fs_xsm ">
@@ -33,7 +28,8 @@ const PerfectSolution = () => {
                       <spsn className="d-lg-block"> is bibenua tase</spsn>
                     </p>
                   </div>
-                  <div className="card_border text-center py-5 px-3 ms-5 mt-5">
+                  <div className="card_border text-center py-5 px-3 ms-md-5 mt-xl-5 position-relative mt-4 mt-md-5 pt-md-4">
+                    <div className="black_circel_perfect position-absolute"></div>
                     <img src={Card_3} alt="Card_3" />
                     <h2 className="ff_nunito fw-bold fs_3xl mt-4">SEO </h2>
                     <p className="ff_lora fw-normal fs_xsm ">
@@ -41,26 +37,32 @@ const PerfectSolution = () => {
                       <spsn className="d-lg-block"> is bibenua tase</spsn>
                     </p>
                   </div>
-                </div>
-
-                <div className="card_border text-center py-5 px-3 ms-5 ">
-                  <img src={Card_2} alt="Card_2" />
-                  <h2 className="ff_nunito fw-bold fs_3xl mt-4">
-                    Digital Partner
-                  </h2>
-                  <p className="ff_lora fw-normal fs_xsm ">
-                    Loren rasion gravida auem
-                    <spsn className="d-lg-block"> is bibenua tase</spsn>
-                  </p>
-                </div>
-              </div>
+                </Col>
+                <Col md={6} lg={4} xl={6} xxl={6}>
+                  <div className="card_border text-center py-5 px-3  position-relative mt-4 mt-md-0 ms-xl-3 ms-xxl-5 mx-auto">
+                    <div className="perfect_solution_bg_circel position-absolute z_index_minus perfect_solution_bg_circel_position"></div>
+                    <img src={Card_2} alt="Card_2" />
+                    <h2 className="ff_nunito fw-bold fs_3xl mt-4">
+                      Digital Partner
+                    </h2>
+                    <p className="ff_lora fw-normal fs_xsm ">
+                      Loren rasion gravida auem
+                      <spsn className="d-lg-block"> is bibenua tase</spsn>
+                    </p>
+                  </div>
+                </Col>
+              </Row>
             </Col>
             <Col xl={5}>
-              <div className="text-center text-lg-start mt-4 mt-xl-0">
+              <div className="d-flex justify-content-center flex-column align-items-center mt-4 mt-xl-0 justify-content-xl-start d-xl-block">
                 <p className="ff_nunito fw_900 fs_4xl">
-                  Perfect Solution for Your Bussiness{" "}
+                  Perfect Solution for Your
+                  <span className="position-relative ps-1">
+                    Bussiness
+                    <div className="bussiness_underline position-absolute z_index_minus"></div>
+                  </span>
                 </p>
-                <p className="ff_lora fw-normal fs_xsm">
+                <p className="ff_lora fw-normal fs_xsm text-center text-xl-start">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
