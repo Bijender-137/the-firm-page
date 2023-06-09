@@ -257,7 +257,7 @@ const OurTestonimals = () => {
                 text ever since the 1500s, when an unknown printer took type
                 scrambled it to make a type 
               </p>
-              <p className="ff_nunito fw-bold fs_sm mt-3 me-3 me-lg-5">
+              <p className="ff_nunito fw-bold fs_sm mt-3 text-center">
                 Jenny Wilson |
                 <span className="ff_lora fw_normal fs_xsm">Digital Agency</span>
               </p>
@@ -270,7 +270,7 @@ const OurTestonimals = () => {
                 scrambled it to make a type specimen book. It has survived not
                 only five centuries,
               </p>
-              <p className="ff_nunito fw-bold fs_sm mt-3 me-3 me-lg-5">
+              <p className="ff_nunito fw-bold fs_sm mt-3 text-center">
                 Jenny Wilson |
                 <span className="ff_lora fw_normal fs_xsm">Digital Agency</span>
               </p>
@@ -283,7 +283,7 @@ const OurTestonimals = () => {
                 scrambled it to make a type specimen book. It has survived not
                 only five centuries,
               </p>
-              <p className="ff_nunito fw-bold fs_sm mt-3 me-3 me-lg-4">
+              <p className="ff_nunito fw-bold fs_sm mt-3 text-center">
                 Jenny Wilson |
                 <span className="ff_lora fw_normal fs_xsm">Digital Agency</span>
               </p>
@@ -296,7 +296,7 @@ const OurTestonimals = () => {
                 scrambled it to make a type specimen book. It has survived not
                 only five centuries,
               </p>
-              <p className="ff_nunito fw-bold fs_sm mt-3">
+              <p className="ff_nunito fw-bold fs_sm mt-3 text-center">
                 Jenny Wilson |
                 <span className="ff_lora fw_normal fs_xsm">Digital Agency</span>
               </p>
