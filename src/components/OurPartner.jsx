@@ -52,12 +52,12 @@ const OurPartner = () => {
   };
   return (
     <>
-      <section className="py-5 overflow-hidde n">
+      <section className="py-5 overflow-hidde our_partner_prev">
         <Container className="py-lg-5">
           <div className="text-center ">
             <h2 className="ff_nunito fs_4xl fw_900">
-              Our{" "}
-              <span className="position-relative">
+              Our
+              <span className="position-relative ps-2">
                 Partner
                 <div className="over_partner_underline position-absolute"></div>
               </span>
@@ -114,7 +114,7 @@ const OurPartner = () => {
             </Col>
             <Col
               sm={3}
-              className="ms-md-3 ms-5 ms-sm-3  d-flex justify-content-center alignic"
+              className="ms-md-3  ms-sm-3  d-flex justify-content-center alignic"
             >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Fire_fox} alt="Fire_fox" />
@@ -122,7 +122,7 @@ const OurPartner = () => {
             </Col>
             <Col
               sm={3}
-              className="ms-md-3 ms-5 ms-sm-3  d-flex justify-content-center alignic"
+              className="ms-md-3  ms-sm-3  d-flex justify-content-center alignic"
             >
               <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Sfari} alt="Sfari" />

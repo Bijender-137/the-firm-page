@@ -55,7 +55,7 @@ const PerfectSolution = () => {
             </Col>
             <Col xl={5}>
               <div className="d-flex justify-content-center flex-column align-items-center mt-4 mt-xl-0 justify-content-xl-start d-xl-block">
-                <p className="ff_nunito fw_900 fs_4xl">
+                <p className="ff_nunito fw_900 fs_4xl text-center text-xl-start">
                   Perfect Solution for Your
                   <span className="position-relative ps-1">
                     Bussiness

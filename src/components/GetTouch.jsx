@@ -7,10 +7,13 @@ const GetTouch = () => {
       <section className="pt-5 ">
         <img className="w-100" src={Bg_img} alt="Bg_img" />
         <Container>
-          <div className="form_box mx-auto py-5 transform_top position-relative ">
-            <div className="get_touch_underline position-absolute"></div>
+          <div className="form_box mx-auto py-5 transform_top ">
             <h2 className="ff_nunito fw_900 fs_4xl text-center pt-4">
-              Get in Touch
+              Get in
+              <span className="position-relative ps-2">
+                Touch
+                <div className="get_touch_underline position-absolute"></div>
+              </span>
             </h2>
             <Row className="px-lg-5 mx-4 mt-4 mt-lg-5 justify-content-between">
               <Col lg={6}>
@@ -36,7 +39,7 @@ const GetTouch = () => {
                 </div>
               </Col>
               <Col lg={6}>
-                <div className="mt-5 mt-lg-0 ms-lg-4 ">
+                <div className="mt-4 pt-2 pt-lg-0 mt-lg-0 ms-lg-4 ">
                   <p className="ff_nunito fw-normal fs_2nd_smll mb-0  ps-2">
                     Email
                   </p>
@@ -48,10 +51,12 @@ const GetTouch = () => {
                 </div>
 
                 <div className="d-flex flex-column mt-4 mt-lg-5 pt-1  ms-lg-4 ">
-                  <label for="cars" className="">
-                    Subject
-                  </label>
-                  <select className="mt-1 input_name w-100 ff_nunito fw-bold fs_xsm placeholder_clr_black" name="cars" id="cars">
+                  <label for="cars">Subject</label>
+                  <select
+                    className="mt-1 input_name w-100 ff_nunito fw-bold fs_xsm placeholder_clr_black"
+                    name="cars"
+                    id="cars"
+                  >
                     <option value="volvo">Chose your subject</option>
                     <option value="saab">React</option>
                     <option value="saab">Vue</option>

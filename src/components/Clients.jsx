@@ -12,7 +12,7 @@ const Clients = () => {
               <div className="me-lg-5 text-center mt-4 mt-lg-0 text-lg-start">
                 <h2 className="ff_nunito  fw_900 fs_4xl">
                   Frustration of
-                  <span className="position-relative">
+                  <span className="position-relative ps-2">
                     Clients
                     <div className="clients_underline position-absolute z_index_minus"></div>
                   </span>

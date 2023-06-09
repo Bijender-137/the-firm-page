@@ -15,46 +15,46 @@ const MyFotter = () => {
             </div>
             <Row className="mt-5">
               <Col lg={7} className="mx-auto">
-                <ul className="p-0 m-0 d-flex align-items-center justify-content-sm-center  overflow-x-scroll max_w_576 ">
+                <ul className="p-0 m-0 d-flex align-items-center justify-content-sm-center  overflow-x-scroll max_w_576 scroll_hide ">
                   <li>
-                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black">
+                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black ">
                       Home
                     </a>
                   </li>
                   <li className="ms-4 ms-md-5">
-                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black">
+                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black ">
                       Solutions
                     </a>
                   </li>
                   <li className="ms-4 ms-md-5">
-                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black">
+                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black ">
                       Cases
                     </a>
                   </li>
                   <li className="ms-4 ms-md-5 ">
                     <a
                       href="#"
-                      className="ff_nunito fw-bold fs_xsm clr_black text-nowrap"
+                      className="ff_nunito fw-bold fs_xsm clr_black text-nowrap "
                     >
                       About Us
                     </a>
                   </li>
                   <li className="ms-4 ms-md-5">
-                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black">
+                    <a href="#" className="ff_nunito fw-bold fs_xsm clr_black ">
                       Blog
                     </a>
                   </li>
                   <li className="ms-4 ms-md-5">
                     <a
                       href="#"
-                      className="ff_nunito fw-bold fs_xsm clr_black text-nowrap"
+                      className="ff_nunito fw-bold fs_xsm clr_black text-nowrap "
                     >
                       Contact Us
                     </a>
                   </li>
                 </ul>
                 <div className="d-flex align-items-center justify-content-center gap-5 mt-5">
-                  <div className="social_media">
+                  <div className="social_media ">
                     <a href="#">
                       <svg
                         width="10"
@@ -71,7 +71,7 @@ const MyFotter = () => {
                     </a>
                   </div>
 
-                  <div className="social_media">
+                  <div className="social_media ">
                     <a href="#">
                       <svg
                         width="25"
@@ -87,7 +87,7 @@ const MyFotter = () => {
                       </svg>
                     </a>
                   </div>
-                  <div className="social_media">
+                  <div className="social_media ">
                     <a href="#">
                       <svg
                         width="30"
@@ -103,7 +103,7 @@ const MyFotter = () => {
                       </svg>
                     </a>
                   </div>
-                  <div className="social_media">
+                  <div className="social_media ">
                     <a href="">
                       <svg
                         width="20"
@@ -127,7 +127,7 @@ const MyFotter = () => {
                       </svg>
                     </a>
                   </div>
-                  <div className="social_media">
+                  <div className="social_media ">
                     <a href="#">
                       <svg
                         width="17"
