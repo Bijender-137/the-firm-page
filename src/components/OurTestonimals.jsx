@@ -219,6 +219,7 @@ const OurTestonimals = () => {
             ref={(slider2) => setNav2(slider2)}
             slidesToShow={1}
             speed={500}
+            fade={true}
             swipeToSlide={true}
             focusOnSelect={true}
             arrows={false}
@@ -232,7 +233,7 @@ const OurTestonimals = () => {
                 scrambled it to make a type specimen book. It has survived not
                 only five centuries,
               </p>
-              <p className="ff_nunito fw-bold fs_sm mt-3 me-3 me-lg-4">
+              <p className="ff_nunito fw-bold fs_sm mt-3 text-center">
                 Jenny Wilson |
                 <span className="ff_lora fw_normal fs_xsm"> Digital Agency</span>
               </p>
@@ -241,11 +242,22 @@ const OurTestonimals = () => {
               <p className="ff_lora fw-normal  fs_xsm px-xl-5 mx-lg-5">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took type
-                scrambled it to make a type specimen book. It has survived not
+                text ever since the 1500s,  It has survived not
                 only five centuries,
               </p>
-              <p className="ff_nunito fw-bold fs_sm mt-3 letter_spacing me-3 me-lg-4">
+              <p className="ff_nunito fw-bold fs_sm mt-3 letter_spacing text-center">
+                Jenny Wilson |
+                <span className="ff_lora fw_normal fs_xsm">Digital Agency</span>
+              </p>
+            </div>
+            <div className="text-center mx-lg-5 px-lg-5 mt-4">
+              <p className="ff_lora fw-normal  fs_xsm px-xl-5 mx-lg-5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took type
+                scrambled it to make a type 
+              </p>
+              <p className="ff_nunito fw-bold fs_sm mt-3 me-3 me-lg-5">
                 Jenny Wilson |
                 <span className="ff_lora fw_normal fs_xsm">Digital Agency</span>
               </p>
@@ -258,20 +270,7 @@ const OurTestonimals = () => {
                 scrambled it to make a type specimen book. It has survived not
                 only five centuries,
               </p>
-              <p className="ff_nunito fw-bold fs_sm mt-3 me-3 me-lg-4">
-                Jenny Wilson |
-                <span className="ff_lora fw_normal fs_xsm">Digital Agency</span>
-              </p>
-            </div>
-            <div className="text-center mx-lg-5 px-lg-5 mt-4">
-              <p className="ff_lora fw-normal  fs_xsm px-xl-5 mx-lg-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took type
-                scrambled it to make a type specimen book. It has survived not
-                only five centuries,
-              </p>
-              <p className="ff_nunito fw-bold fs_sm mt-3 me-3 me-lg-4">
+              <p className="ff_nunito fw-bold fs_sm mt-3 me-3 me-lg-5">
                 Jenny Wilson |
                 <span className="ff_lora fw_normal fs_xsm">Digital Agency</span>
               </p>

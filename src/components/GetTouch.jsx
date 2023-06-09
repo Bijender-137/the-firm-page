@@ -51,7 +51,7 @@ const GetTouch = () => {
                 </div>
 
                 <div className="d-flex flex-column mt-4 mt-lg-5 pt-1  ms-lg-4 ">
-                  <label for="cars">Subject</label>
+                  <label for="cars" className="ff_nunito fw-normal fs_2nd_smll">Subject</label>
                   <select
                     className="mt-1 input_name w-100 ff_nunito fw-bold fs_xsm placeholder_clr_black"
                     name="cars"

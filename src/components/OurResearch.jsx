@@ -61,7 +61,7 @@ const OurResearch = () => {
             </Col>
           </Row>
           <Slider {...settings} className="">
-            <Row className="mt-5 d-flex align-items-center justify-content-between flex-column-reverse flex-lg-row">
+            <Row className="mt-5 d-flex align-items-center justify-content-between flex-column-reverse flex-lg-row mb-lg-5">
               <Col lg={6}>
                 <div className="pe-lg-5 mt-4 mt-lg-0 text-center text-lg-start">
                   <p className="ff_nunito fw-bold fs_3xl">
@@ -73,8 +73,7 @@ const OurResearch = () => {
                     standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type Lorem Ipsum is simply dummy
                     text of the printing and typesetting industry. Lorem Ipsum
-                    has been the industry's standard dummy text ever since the
-                    1500s, when an unknown printer took.
+                    has been the industry's standard dum
                   </p>
                   <button className="nav_btn ff_nunito fw-bold fs_xsm  text-white mt-3 mt-lg-5 px-4">
                     Read More
@@ -93,7 +92,7 @@ const OurResearch = () => {
                 </div>
               </Col>
             </Row>
-            <Row className="mt-5 d-flex align-items-center justify-content-between flex-column-reverse flex-lg-row">
+            <Row className="mt-5 d-flex align-items-center justify-content-between flex-column-reverse flex-lg-row ">
               <Col lg={6}>
                 <div className="pe-lg-5 mt-4 mt-lg-0 text-center text-lg-start">
                   <p className="ff_nunito fw-bold fs_3xl">
@@ -104,9 +103,7 @@ const OurResearch = () => {
                     typesetting industry. Lorem Ipsum has been the industry
                     standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type Lorem Ipsum is simply dummy
-                    text of the printing and typesetting industry. Lorem Ipsum
-                    has been the industry's standard dummy text ever since the
-                    1500s, when an unknown printer took.
+                    text of the printing and typesetting industry.
                   </p>
                   <button className="nav_btn ff_nunito fw-bold fs_xsm  text-white mt-3 mt-lg-5 px-4 cursor_pointer">
                     Read More

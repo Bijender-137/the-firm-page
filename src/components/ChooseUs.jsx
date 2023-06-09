@@ -67,11 +67,11 @@ const ChooseUs = () => {
                       <div
                         className={
                           first === 1
-                            ? "position-relative d-flex align-items-center justify-justify-content-center slide_border_2"
-                            : "position-relative d-flex align-items-center justify-justify-content-center slide_border"
+                            ? "position-relative d-flex align-items-center justify-justify-content-center slide_border_2 choose_us_box_shadow"
+                            : "position-relative d-flex align-items-center justify-justify-content-center slide_border choose_us_box_shadow"
                         }
                       >
-                        <p className="ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap ">
+                        <p className="ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap letter_spacing ">
                           Market Research
                         </p>
                       </div>
@@ -123,8 +123,8 @@ const ChooseUs = () => {
                         <p
                           className={
                             first === 2
-                              ? "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap "
-                              : "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap "
+                              ? "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap letter_spacing "
+                              : "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap letter_spacing choose_us_box_shadow "
                           }
                         >
                           Branding
@@ -178,8 +178,8 @@ const ChooseUs = () => {
                         <p
                           className={
                             first === 3
-                              ? "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap "
-                              : "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap "
+                              ? "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap letter_spacing"
+                              : "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap letter_spacing choose_us_box_shadow"
                           }
                         >
                           Reporting
@@ -233,8 +233,8 @@ const ChooseUs = () => {
                         <p
                           className={
                             first === 4
-                              ? "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap "
-                              : "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap "
+                              ? "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap  letter_spacing "
+                              : "ff_nunito fw-bold fs_xsm text_clr_gray mb-0  py-3 px-4 text-nowrap  letter_spacing choose_us_box_shadow"
                           }
                         >
                           Data Analysis

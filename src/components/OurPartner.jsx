@@ -46,6 +46,7 @@ const OurPartner = () => {
           autoplay: true,
           arrows: false,
           autoplaySpeed: 2000,
+          dots:true,
         },
       },
     ],
@@ -63,71 +64,47 @@ const OurPartner = () => {
               </span>
             </h2>
           </div>
-          <Slider {...settings} className=" mt-lg-5 mt-4">
-            <Col
-              sm={3}
-              className="ms-md-3 d-flex justify-content-center alignic text-center"
-            >
-              <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
+          <Slider {...settings} className="mt-lg-5 mt-4">
+            <div className="px-4">
+              <div className="img_shadow w-100 d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167 " src={Hand_over} alt="Hand_over" />
               </div>
-            </Col>
-            <Col
-              sm={3}
-              className="ms-md-3  d-flex justify-content-center alignic"
-            >
-              <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
+            </div>
+            <div className="px-4">
+              <div className="img_shadow w-100 d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Googel} alt="Googel" />
               </div>
-            </Col>
-            <Col
-              sm={3}
-              className="ms-md-3  d-flex justify-content-center alignic"
-            >
-              <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
+            </div>
+            <div className="px-4">
+              <div className="img_shadow w-100 d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Fire_fox} alt="Fire_fox" />
               </div>
-            </Col>
-            <Col
-              sm={3}
-              className="ms-md-3  d-flex justify-content-center alignic"
-            >
-              <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
+            </div>
+            <div className="px-4">
+              <div className="img_shadow w-100 d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Sfari} alt="Sfari" />
               </div>
-            </Col>
-            <Col
-              sm={3}
-              className="ms-md-3  d-flex justify-content-center alignic"
-            >
-              <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
+            </div>
+            <div className="px-4">
+              <div className="img_shadow w-100 d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Hand_over} alt="Hand_over" />
               </div>
-            </Col>
-            <Col
-              sm={3}
-              className="ms-md-3  d-flex justify-content-center alignic"
-            >
-              <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
+            </div>
+            <div className="px-4">
+              <div className="img_shadow w-100 d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Googel} alt="Googel" />
               </div>
-            </Col>
-            <Col
-              sm={3}
-              className="ms-md-3  ms-sm-3  d-flex justify-content-center alignic"
-            >
-              <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
+            </div>
+            <div className="px-4">
+              <div className="img_shadow w-100 d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Fire_fox} alt="Fire_fox" />
               </div>
-            </Col>
-            <Col
-              sm={3}
-              className="ms-md-3  ms-sm-3  d-flex justify-content-center alignic"
-            >
-              <div className="img_shadow d-flex align-items-center justify-content-center logo_clr">
+            </div>
+            <div className="px-4">
+              <div className="img_shadow w-100 d-flex align-items-center justify-content-center logo_clr">
                 <img className="img_w_167" src={Sfari} alt="Sfari" />
               </div>
-            </Col>
+            </div>
           </Slider>
         </Container>
       </section>
