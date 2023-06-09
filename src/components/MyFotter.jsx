@@ -57,6 +57,7 @@ const MyFotter = () => {
                   <div className="social_media ">
                     <a href="#">
                       <svg
+                        className="transition"
                         width="10"
                         height="20"
                         viewBox="0 0 10 20"
@@ -74,6 +75,7 @@ const MyFotter = () => {
                   <div className="social_media ">
                     <a href="#">
                       <svg
+                        className="transition"
                         width="25"
                         height="20"
                         viewBox="0 0 25 20"
@@ -90,6 +92,7 @@ const MyFotter = () => {
                   <div className="social_media ">
                     <a href="#">
                       <svg
+                        className="transition"
                         width="30"
                         height="20"
                         viewBox="0 0 30 20"
@@ -106,6 +109,7 @@ const MyFotter = () => {
                   <div className="social_media ">
                     <a href="">
                       <svg
+                        className="transition"
                         width="20"
                         height="20"
                         viewBox="0 0 20 20"
@@ -130,6 +134,7 @@ const MyFotter = () => {
                   <div className="social_media ">
                     <a href="#">
                       <svg
+                        className="transition"
                         width="17"
                         height="20"
                         viewBox="0 0 17 20"
